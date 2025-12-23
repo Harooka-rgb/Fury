@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бека</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- 
+    <select >
+        <option value="RU">RU</option>
+        <option value="KG">KG</option>
+        <option value="EN">EN</option>
+    </select>
+
+    <h4>Привет</h4> -->
+
+<style>
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #111;
+  }
+  .buttons {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    padding: 8px 12px;
+  }
+  .buttons button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    padding: 6px 2px;
+    color: #111;
+    font-family: 'Poppins', Arial, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .buttons button.active{
+    border-bottom: 4px solid #111;
+    padding-bottom: 6px;
+  }
+
+  .buttons .lol {
+    background: #f0f0f0;
+    border-radius: 8px;
+    padding: 2px 9px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    /* font-weight: 600; */
+    font-size: 20px;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+  }
+  .content1, .content2, .content3 {
+    display: none;
+  }
+  .content1.active, .content2.active, .content3.active {
+    display: block;
+  }
+</style>
+
+    <div class="buttons">
+      <button class="active">Описание</button>
+      <button>Характеристики</button>
+      <button class="desc">Отзывы <span class="lol">3</span></button>
+      <button class="beng">Вопрос ответ <span class="lol">0</span></button>
+    </div>
+
+    <!-- <div class="content">
+    <div class="content1 active">
+      <img width="200" src="https://www.bakai.kg/_next/image/?url=https%3A%2F%2Fbakai.kg%2Fbbank%2Fresize%2F1200%2F1000000%2Fassets%2Ftop_product_photos%2F2025%2F12%2F4%2Ftop_product_card_photo_SDw1B3IjXkEUSvAqTH95.webp&w=2048&q=75" alt="">
+    </div>
+    <div class="content2">
+      <img width="200" src="https://www.bakai.kg/_next/image/?url=https%3A%2F%2Fbakai.kg%2Fbbank%2Fresize%2F1200%2F1000000%2Fassets%2Ftop_product_photos%2F2024%2F11%2F25%2Ftop_product_card_photo_tw50BzqEthyIuAi4kWud.jpg&w=2048&q=75" alt="">
+    </div>
+    <div class="content3">
+      <img width="200" src="https://www.bakai.kg/_next/image/?url=https%3A%2F%2Fbakai.kg%2Fbbank%2Fresize%2F1200%2F1000000%2Fassets%2Ftop_product_photos%2F2024%2F12%2F4%2Ftop_product_card_photo_P6RzbkRzNHXBtStOBq6T.png&w=2048&q=75" alt="">
+    </div>
+  </div> -->
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
